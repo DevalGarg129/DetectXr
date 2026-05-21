@@ -1,0 +1,3845 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/bin/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/deval/.local/bin/uname"
+      - "/home/deval/bin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 6.19.14-300.fc44.x86_64 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/home/deval/.local/bin/gmake"
+      - "/home/deval/bin/gmake"
+      - "/usr/local/bin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/cc"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/cc"
+      - "/home/deval/.local/bin/cc"
+      - "/home/deval/bin/cc"
+      - "/usr/local/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/deval/Desktop/detectXr/build/CMakeFiles/4.3.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/home/deval/.local/bin/dlltool"
+      - "/home/deval/bin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/var/lib/snapd/snap/bin/dlltool"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    found: "/usr/bin/addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/home/deval/.local/bin/tapi"
+      - "/home/deval/bin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/sbin/tapi"
+      - "/var/lib/snapd/snap/bin/tapi"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.1"
+      - "/home/deval/.local/bin/gcc-ar-16.1"
+      - "/home/deval/bin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/local/sbin/gcc-ar-16.1"
+      - "/usr/sbin/gcc-ar-16.1"
+      - "/var/lib/snapd/snap/bin/gcc-ar-16.1"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
+      - "/home/deval/.local/bin/gcc-ar-16"
+      - "/home/deval/bin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/var/lib/snapd/snap/bin/gcc-ar-16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
+      - "/home/deval/.local/bin/gcc-ar16"
+      - "/home/deval/bin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/var/lib/snapd/snap/bin/gcc-ar16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.1"
+      - "/home/deval/.local/bin/gcc-ranlib-16.1"
+      - "/home/deval/bin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/local/sbin/gcc-ranlib-16.1"
+      - "/usr/sbin/gcc-ranlib-16.1"
+      - "/var/lib/snapd/snap/bin/gcc-ranlib-16.1"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
+      - "/home/deval/.local/bin/gcc-ranlib-16"
+      - "/home/deval/bin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/var/lib/snapd/snap/bin/gcc-ranlib-16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
+      - "/home/deval/.local/bin/gcc-ranlib16"
+      - "/home/deval/bin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/var/lib/snapd/snap/bin/gcc-ranlib16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "CC"
+      - "g++"
+      - "aCC"
+      - "cl"
+      - "bcc"
+      - "xlC"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/deval/Desktop/detectXr/build/CMakeFiles/4.3.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-16.1"
+      - "gcc-ar-16"
+      - "gcc-ar16"
+      - "gcc-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ar-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16.1"
+      - "/home/deval/.local/bin/gcc-ar-16.1"
+      - "/home/deval/bin/gcc-ar-16.1"
+      - "/usr/local/bin/gcc-ar-16.1"
+      - "/usr/local/sbin/gcc-ar-16.1"
+      - "/usr/sbin/gcc-ar-16.1"
+      - "/var/lib/snapd/snap/bin/gcc-ar-16.1"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ar-16.1"
+      - "/usr/bin/gcc-ar-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-16"
+      - "/home/deval/.local/bin/gcc-ar-16"
+      - "/home/deval/bin/gcc-ar-16"
+      - "/usr/local/bin/gcc-ar-16"
+      - "/usr/local/sbin/gcc-ar-16"
+      - "/usr/sbin/gcc-ar-16"
+      - "/var/lib/snapd/snap/bin/gcc-ar-16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ar-16"
+      - "/usr/bin/gcc-ar16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar16"
+      - "/home/deval/.local/bin/gcc-ar16"
+      - "/home/deval/bin/gcc-ar16"
+      - "/usr/local/bin/gcc-ar16"
+      - "/usr/local/sbin/gcc-ar16"
+      - "/usr/sbin/gcc-ar16"
+      - "/var/lib/snapd/snap/bin/gcc-ar16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ar16"
+    found: "/usr/bin/gcc-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-16.1"
+      - "gcc-ranlib-16"
+      - "gcc-ranlib16"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+    searched_directories:
+      - "/usr/bin/gcc-ranlib-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16.1"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16.1"
+      - "/home/deval/.local/bin/gcc-ranlib-16.1"
+      - "/home/deval/bin/gcc-ranlib-16.1"
+      - "/usr/local/bin/gcc-ranlib-16.1"
+      - "/usr/local/sbin/gcc-ranlib-16.1"
+      - "/usr/sbin/gcc-ranlib-16.1"
+      - "/var/lib/snapd/snap/bin/gcc-ranlib-16.1"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ranlib-16.1"
+      - "/usr/bin/gcc-ranlib-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-16"
+      - "/home/deval/.local/bin/gcc-ranlib-16"
+      - "/home/deval/bin/gcc-ranlib-16"
+      - "/usr/local/bin/gcc-ranlib-16"
+      - "/usr/local/sbin/gcc-ranlib-16"
+      - "/usr/sbin/gcc-ranlib-16"
+      - "/var/lib/snapd/snap/bin/gcc-ranlib-16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ranlib-16"
+      - "/usr/bin/gcc-ranlib16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib16"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib16"
+      - "/home/deval/.local/bin/gcc-ranlib16"
+      - "/home/deval/bin/gcc-ranlib16"
+      - "/usr/local/bin/gcc-ranlib16"
+      - "/usr/local/sbin/gcc-ranlib16"
+      - "/usr/sbin/gcc-ranlib16"
+      - "/var/lib/snapd/snap/bin/gcc-ranlib16"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/gcc-ranlib16"
+    found: "/usr/bin/gcc-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI"
+      binary: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_103cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_103cf.dir/build.make CMakeFiles/cmTC_103cf.dir/build
+        gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI'
+        Building C object CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_103cf.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_103cf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/cc3axzgS.s
+        GNU C23 (GCC) version 16.1.1 20260501 (Red Hat 16.1.1-1) (x86_64-redhat-linux)
+        	compiled by GNU C version 16.1.1 20260501 (Red Hat 16.1.1-1), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 22d46a7944dda6b9310ab0cb59c0bc64
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_103cf.dir/'
+         as -v --64 -o CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o /tmp/cc3axzgS.s
+        GNU assembler version 2.46 (x86_64-redhat-linux) using BFD version version 2.46-1.fc44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_103cf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_103cf.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_103cf' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_103cf.'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyv1zIe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_103cf /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        collect2 version 16.1.1 20260501 (Red Hat 16.1.1-1)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyv1zIe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_103cf /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        GNU ld version 2.46-1.fc44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_103cf' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_103cf.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -o cmTC_103cf
+        gmake[1]: Leaving directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-redhat-linux/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_103cf/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_103cf.dir/build.make CMakeFiles/cmTC_103cf.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-j1GzWI']
+        ignore line: [Building C object CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_103cf.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_103cf.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/cc3axzgS.s]
+        ignore line: [GNU C23 (GCC) version 16.1.1 20260501 (Red Hat 16.1.1-1) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 16.1.1 20260501 (Red Hat 16.1.1-1)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 22d46a7944dda6b9310ab0cb59c0bc64]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_103cf.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o /tmp/cc3axzgS.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-redhat-linux) using BFD version version 2.46-1.fc44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_103cf]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_103cf.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_103cf' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_103cf.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyv1zIe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_103cf /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccyv1zIe.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_103cf] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 16.1.1 20260501 (Red Hat 16.1.1-1)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccyv1zIe.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_103cf /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_103cf.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16] ==> [/usr/lib/gcc/x86_64-redhat-linux/16]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s_asneeded;atomic_asneeded;c;gcc;gcc_s_asneeded]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/16;/usr/lib64;/lib64;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.46-1.fc44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl"
+      binary: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d0ed/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d0ed.dir/build.make CMakeFiles/cmTC_1d0ed.dir/build
+        gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl'
+        Building CXX object CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1d0ed.dir/'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1d0ed.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccot0dXZ.s
+        GNU C++20 (GCC) version 16.1.1 20260501 (Red Hat 16.1.1-1) (x86_64-redhat-linux)
+        	compiled by GNU C version 16.1.1 20260501 (Red Hat 16.1.1-1), GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16
+         /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux
+         /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward
+         /usr/lib/gcc/x86_64-redhat-linux/16/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Compiler executable checksum: e9c585eac4e856898ce035818c58d516
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1d0ed.dir/'
+         as -v --64 -o CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccot0dXZ.s
+        GNU assembler version 2.46 (x86_64-redhat-linux) using BFD version version 2.46-1.fc44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1d0ed
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d0ed.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-redhat-linux
+        Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,objc,obj-c++,ada,go,d,m2,cobol,algol68,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none,amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d0ed' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_1d0ed.'
+         /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDdjvb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d0ed /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        collect2 version 16.1.1 20260501 (Red Hat 16.1.1-1)
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDdjvb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d0ed /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o
+        GNU ld version 2.46-1.fc44
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d0ed' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_1d0ed.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1d0ed
+        gmake[1]: Leaving directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/gcc/x86_64-redhat-linux/16/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux] ==> [/usr/include/c++/16/x86_64-redhat-linux]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-redhat-linux/16/include] ==> [/usr/lib/gcc/x86_64-redhat-linux/16/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-redhat-linux;/usr/include/c++/16/backward;/usr/lib/gcc/x86_64-redhat-linux/16/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d0ed/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1d0ed.dir/build.make CMakeFiles/cmTC_1d0ed.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-zC9UYl']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1d0ed.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_1d0ed.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -mtls-dialect=gnu2 -version -o /tmp/ccot0dXZ.s]
+        ignore line: [GNU C++20 (GCC) version 16.1.1 20260501 (Red Hat 16.1.1-1) (x86_64-redhat-linux)]
+        ignore line: [	compiled by GNU C version 16.1.1 20260501 (Red Hat 16.1.1-1)  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-redhat-linux/16/../../../../x86_64-redhat-linux/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/x86_64-redhat-linux]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-redhat-linux/16/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e9c585eac4e856898ce035818c58d516]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1d0ed.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccot0dXZ.s]
+        ignore line: [GNU assembler version 2.46 (x86_64-redhat-linux) using BFD version version 2.46-1.fc44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1d0ed]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d0ed.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-redhat-linux]
+        ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran objc obj-c++ ada go d m2 cobol algol68 lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugzilla.redhat.com/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --enable-libstdcxx-backtrace --with-libstdcxx-zoneinfo=/usr/share/zoneinfo --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl=/builddir/build/BUILD/gcc-16.1.1-build/gcc-16.1.1-20260501/obj-x86_64-redhat-linux/isl-install --enable-offload-targets=nvptx-none amdgcn-amdhsa --enable-offload-defaulted --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-tls=gnu2 --with-arch_32=i686 --build=x86_64-redhat-linux --with-build-config=bootstrap-lto --enable-link-serialization=1 --disable-libssp]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.1 20260501 (Red Hat 16.1.1-1) (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/16/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/16/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/16/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d0ed' '-foffload-options=-l_GCC_stdc++' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-mtls-dialect=gnu2' '-dumpdir' 'cmTC_1d0ed.']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/16/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDdjvb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d0ed /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/16/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cckDdjvb.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--no-add-needed] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1d0ed] ==> ignore
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/usr/lib/gcc/x86_64-redhat-linux/16/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../..]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-latomic_asneeded] ==> lib [atomic_asneeded]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o]
+          arg [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        ignore line: [collect2 version 16.1.1 20260501 (Red Hat 16.1.1-1)]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-redhat-linux/16/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cckDdjvb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d0ed /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/16 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_1d0ed.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16] ==> [/usr/lib/gcc/x86_64-redhat-linux/16]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/16/../../..] ==> [/usr/lib]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;atomic_asneeded;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/gcc/x86_64-redhat-linux/16/crtbegin.o;/usr/lib/gcc/x86_64-redhat-linux/16/crtend.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/16;/usr/lib64;/lib64;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld version 2.46-1.fc44
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/lib64/cmake/Drogon/FindJsoncpp.cmake:30 (find_path)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:39 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "path"
+    variable: "JSONCPP_INCLUDE_DIRS"
+    description: "jsoncpp include dir"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "json/json.h"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/jsoncpp/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/jsoncpp/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/jsoncpp/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/jsoncpp/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/jsoncpp/"
+      - "/usr/local/bin/"
+      - "/usr/bin/jsoncpp/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/jsoncpp/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/jsoncpp/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/jsoncpp/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/jsoncpp/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/include/jsoncpp/"
+      - "/usr/local/include/"
+      - "/usr/local/jsoncpp/"
+      - "/usr/local/"
+      - "/usr/include/jsoncpp/"
+      - "/usr/include/"
+      - "/usr/jsoncpp/"
+      - "/usr/"
+      - "/include/jsoncpp/"
+      - "/include/"
+      - "/usr/X11R6/include/jsoncpp/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/jsoncpp/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/jsoncpp/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/jsoncpp/"
+      - "/usr/pkg/"
+      - "/opt/include/jsoncpp/"
+      - "/opt/include/"
+      - "/opt/jsoncpp/"
+      - "/opt/"
+      - "/usr/include/X11/jsoncpp/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/jsoncpp/json/json.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/json/json.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/jsoncpp/json/json.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/json/json.h"
+      - "/home/deval/.local/bin/jsoncpp/json/json.h"
+      - "/home/deval/.local/bin/json/json.h"
+      - "/home/deval/bin/jsoncpp/json/json.h"
+      - "/home/deval/bin/json/json.h"
+      - "/usr/local/bin/jsoncpp/json/json.h"
+      - "/usr/local/bin/json/json.h"
+      - "/usr/bin/jsoncpp/json/json.h"
+      - "/usr/bin/json/json.h"
+      - "/usr/local/sbin/jsoncpp/json/json.h"
+      - "/usr/local/sbin/json/json.h"
+      - "/usr/sbin/jsoncpp/json/json.h"
+      - "/usr/sbin/json/json.h"
+      - "/var/lib/snapd/snap/bin/jsoncpp/json/json.h"
+      - "/var/lib/snapd/snap/bin/json/json.h"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/jsoncpp/json/json.h"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/json/json.h"
+      - "/usr/local/include/jsoncpp/json/json.h"
+      - "/usr/local/include/json/json.h"
+      - "/usr/local/jsoncpp/json/json.h"
+      - "/usr/local/json/json.h"
+      - "/usr/include/jsoncpp/json/json.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/lib64/cmake/Drogon/FindJsoncpp.cmake:35 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:39 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "JSONCPP_LIBRARIES"
+    description: "jsoncpp library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jsoncpp"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+    found: "/usr/lib64/libjsoncpp.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:517 (find_program)"
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:295 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:40 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "program"
+    variable: "PKG_CONFIG_EXECUTABLE"
+    description: "pkg-config executable"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pkg-config"
+      - "pkgconf"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pkg-config"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/pkgconf"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pkg-config"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/pkgconf"
+      - "/home/deval/.local/bin/pkg-config"
+      - "/home/deval/.local/bin/pkgconf"
+      - "/home/deval/bin/pkg-config"
+      - "/home/deval/bin/pkgconf"
+      - "/usr/local/bin/pkg-config"
+      - "/usr/local/bin/pkgconf"
+    found: "/usr/bin/pkg-config"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:40 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib__OPENSSL_ssl"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+    candidate_directories:
+      - "/usr/lib64/"
+    found: "/usr/lib64/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:761 (find_library)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:811 (_pkg_find_libs)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1149 (_pkg_recalculate)"
+      - "/usr/share/cmake/Modules/FindPkgConfig.cmake:1166 (_pkg_check_modules_internal)"
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:297 (pkg_check_modules)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:40 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "pkgcfg_lib__OPENSSL_crypto"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/lib64/"
+    found: "/usr/lib64/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:370 (find_path)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:40 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "path"
+    variable: "OPENSSL_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openssl/ssl.h"
+    candidate_directories:
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/include/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/include/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/include/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/include/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+    searched_directories:
+      - "/usr/include/include/openssl/ssl.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:628 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:40 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_SSL_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ssl"
+      - "ssleay32"
+      - "ssleay32MD"
+    candidate_directories:
+      - "/usr/lib64/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    found: "/usr/lib64/libssl.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindOpenSSL.cmake:642 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:40 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "OPENSSL_CRYPTO_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "crypto"
+    candidate_directories:
+      - "/usr/lib64/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    found: "/usr/lib64/libcrypto.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "/usr/share/cmake/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake:48 (find_dependency)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-rgtw63"
+      binary: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-rgtw63"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib64/cmake/Drogon;/usr/local/lib64/cmake/Trantor"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-rgtw63'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5a530/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5a530.dir/build.make CMakeFiles/cmTC_5a530.dir/build
+        gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-rgtw63'
+        Building C object CMakeFiles/cmTC_5a530.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_5a530.dir/src.c.o -c /home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-rgtw63/src.c
+        Linking C executable cmTC_5a530
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a530.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5a530.dir/src.c.o -o cmTC_5a530
+        gmake[1]: Leaving directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-rgtw63'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:40 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    name: "Trantor"
+    configs:
+      -
+        filename: "Trantor.cps"
+        kind: "cps"
+      -
+        filename: "trantor.cps"
+        kind: "cps"
+      -
+        filename: "TrantorConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "trantor-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Trantor"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/TrantorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/trantor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib64/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib64/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/share/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/share/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/TrantorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/trantor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/TrantorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/trantor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/TrantorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/trantor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib64/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib64/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/share/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/share/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/TrantorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/trantor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib64/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib64/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/share/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/share/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/TrantorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/trantor-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/Trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/trantor.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/local/lib64/cmake/Trantor/TrantorConfig.cmake"
+      mode: "config"
+      version: "1.5.28"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_MODULE_PATH:
+        - "/usr/local/lib64/cmake/Drogon"
+        - "/usr/local/lib64/cmake/Trantor"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/lib64/cmake/Drogon/FindUUID.cmake:18 (find_path)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:42 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "path"
+    variable: "UUID_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uuid.h"
+    candidate_directories:
+      - "/include/uuid/"
+      - "/include/"
+      - "/inc/uuid/"
+      - "/inc/"
+      - "/ext/inc/uuid/"
+      - "/ext/inc/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uuid/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uuid/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/uuid/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/uuid/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/uuid/"
+      - "/usr/local/bin/"
+      - "/usr/bin/uuid/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/uuid/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/uuid/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/uuid/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/uuid/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/include/uuid/"
+      - "/usr/local/include/"
+      - "/usr/local/uuid/"
+      - "/usr/local/"
+      - "/usr/include/uuid/"
+      - "/usr/include/"
+      - "/usr/uuid/"
+      - "/usr/"
+      - "/include/uuid/"
+      - "/include/"
+      - "/usr/X11R6/include/uuid/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/uuid/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/uuid/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/uuid/"
+      - "/usr/pkg/"
+      - "/opt/include/uuid/"
+      - "/opt/include/"
+      - "/opt/uuid/"
+      - "/opt/"
+      - "/usr/include/X11/uuid/"
+      - "/usr/include/X11/"
+      - "/home/deval/Library/Frameworks/uuid/"
+      - "/home/deval/Library/Frameworks/"
+      - "/Library/Frameworks/uuid/"
+      - "/Library/Frameworks/"
+      - "/usr/local/include/uuid/"
+      - "/usr/local/include/"
+      - "/usr/include/uuid/"
+      - "/usr/include/"
+      - "/usr/include/gdal/uuid/"
+      - "/usr/include/gdal/"
+      - "/sw/include/uuid/"
+      - "/sw/include/"
+      - "/opt/local/include/uuid/"
+      - "/opt/local/include/"
+      - "/opt/csw/include/uuid/"
+      - "/opt/csw/include/"
+      - "/opt/include/uuid/"
+      - "/opt/include/"
+      - "/usr/freeware/include/uuid/"
+      - "/usr/freeware/include/"
+    searched_directories:
+      - "/include/uuid/uuid.h"
+      - "/include/uuid.h"
+      - "/inc/uuid/uuid.h"
+      - "/inc/uuid.h"
+      - "/ext/inc/uuid/uuid.h"
+      - "/ext/inc/uuid.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uuid/uuid.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/uuid.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uuid/uuid.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/uuid.h"
+      - "/home/deval/.local/bin/uuid/uuid.h"
+      - "/home/deval/.local/bin/uuid.h"
+      - "/home/deval/bin/uuid/uuid.h"
+      - "/home/deval/bin/uuid.h"
+      - "/usr/local/bin/uuid/uuid.h"
+      - "/usr/local/bin/uuid.h"
+      - "/usr/bin/uuid/uuid.h"
+      - "/usr/bin/uuid.h"
+      - "/usr/local/sbin/uuid/uuid.h"
+      - "/usr/local/sbin/uuid.h"
+      - "/usr/sbin/uuid/uuid.h"
+      - "/usr/sbin/uuid.h"
+      - "/var/lib/snapd/snap/bin/uuid/uuid.h"
+      - "/var/lib/snapd/snap/bin/uuid.h"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/uuid/uuid.h"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/uuid.h"
+      - "/usr/local/include/uuid/uuid.h"
+      - "/usr/local/include/uuid.h"
+      - "/usr/local/uuid/uuid.h"
+      - "/usr/local/uuid.h"
+      - "/usr/include/uuid/uuid.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/lib64/cmake/Drogon/FindUUID.cmake:41 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:42 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "UUID_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uuid"
+      - "ossp-uuid"
+    candidate_directories:
+      - "/lib64/"
+      - "/lib/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+    searched_directories:
+      - "/lib64/"
+      - "/lib/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+    found: "/lib64/libossp-uuid.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/lib64/cmake/Drogon/FindUUID.cmake:60 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:42 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "UUID_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uuidd"
+    candidate_directories:
+      - "/lib64/"
+      - "/lib/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+    searched_directories:
+      - "/lib64/"
+      - "/lib/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindZLIB.cmake:165 (find_path)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:44 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "path"
+    variable: "ZLIB_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zlib.h"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/include/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/bin/include/"
+      - "/home/deval/bin/"
+      - "/usr/local/bin/include/"
+      - "/usr/local/bin/"
+      - "/usr/bin/include/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/include/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/include/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/include/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/include/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/include/include/"
+      - "/usr/local/include/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/include/"
+      - "/usr/include/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/include/"
+      - "/include/"
+      - "/usr/X11R6/include/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/include/"
+      - "/opt/include/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/usr/include/X11/include/"
+      - "/usr/include/X11/"
+      - "/zlib/include/"
+      - "/zlib/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/include/zlib.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/zlib.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/include/zlib.h"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/zlib.h"
+      - "/home/deval/.local/bin/include/zlib.h"
+      - "/home/deval/.local/bin/zlib.h"
+      - "/home/deval/bin/include/zlib.h"
+      - "/home/deval/bin/zlib.h"
+      - "/usr/local/bin/include/zlib.h"
+      - "/usr/local/bin/zlib.h"
+      - "/usr/bin/include/zlib.h"
+      - "/usr/bin/zlib.h"
+      - "/usr/local/sbin/include/zlib.h"
+      - "/usr/local/sbin/zlib.h"
+      - "/usr/sbin/include/zlib.h"
+      - "/usr/sbin/zlib.h"
+      - "/var/lib/snapd/snap/bin/include/zlib.h"
+      - "/var/lib/snapd/snap/bin/zlib.h"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/include/zlib.h"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/zlib.h"
+      - "/usr/local/include/include/zlib.h"
+      - "/usr/local/include/zlib.h"
+      - "/usr/local/include/zlib.h"
+      - "/usr/local/zlib.h"
+      - "/usr/include/include/zlib.h"
+    found: "/usr/include/"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindZLIB.cmake:195 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:44 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "ZLIB_LIBRARY_RELEASE"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "z"
+      - "zlib"
+      - "zdll"
+      - "zlib1"
+      - "zlibstatic"
+      - "zlibwapi"
+      - "zlibvc"
+      - "zlibstat"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+    found: "/usr/lib64/libz.so"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/FindZLIB.cmake:196 (find_library)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:44 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    mode: "library"
+    variable: "ZLIB_LIBRARY_DEBUG"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "zd"
+      - "zlibd"
+      - "zdlld"
+      - "zlibd1"
+      - "zlib1d"
+      - "zlibstaticd"
+      - "zlibwapid"
+      - "zlibvcd"
+      - "zlibstatd"
+    candidate_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+    searched_directories:
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/home/deval/.local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/usr/sbin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib64/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/local/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib64/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/usr/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib64/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/lib/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/opt/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+      - "/usr/lib64/X11/"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIncludeFileCXX.cmake:143 (try_compile)"
+      - "/usr/local/lib64/cmake/Drogon/FindFilesystem.cmake:162 (check_include_file_cxx)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:70 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Looking for C++ include filesystem"
+    directories:
+      source: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-obhrR7"
+      binary: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-obhrR7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib64/cmake/Drogon;/usr/local/lib64/cmake/Trantor"
+    buildResult:
+      variable: "_CXX_FILESYSTEM_HAVE_HEADER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-obhrR7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2bced/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2bced.dir/build.make CMakeFiles/cmTC_2bced.dir/build
+        gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-obhrR7'
+        Building CXX object CMakeFiles/cmTC_2bced.dir/CheckIncludeFile.cxx.o
+        /usr/bin/c++   -std=gnu++17 -o CMakeFiles/cmTC_2bced.dir/CheckIncludeFile.cxx.o -c /home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-obhrR7/CheckIncludeFile.cxx
+        Linking CXX executable cmTC_2bced
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bced.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2bced.dir/CheckIncludeFile.cxx.o -o cmTC_2bced
+        gmake[1]: Leaving directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-obhrR7'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceRuns.cmake:95 (try_run)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceRuns.cmake:97 (cmake_check_source_runs)"
+      - "/usr/local/lib64/cmake/Drogon/FindFilesystem.cmake:126 (check_cxx_source_runs)"
+      - "/usr/local/lib64/cmake/Drogon/FindFilesystem.cmake:220 (_cmcm_check_cxx_source)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake:70 (find_dependency)"
+      - "CMakeLists.txt:7 (find_package)"
+    checks:
+      - "Performing Test CXX_FILESYSTEM_NO_LINK_NEEDED"
+    directories:
+      source: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-hGPAk5"
+      binary: "/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-hGPAk5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib64/cmake/Drogon;/usr/local/lib64/cmake/Trantor"
+    buildResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-hGPAk5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d6a4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9d6a4.dir/build.make CMakeFiles/cmTC_9d6a4.dir/build
+        gmake[1]: Entering directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-hGPAk5'
+        Building CXX object CMakeFiles/cmTC_9d6a4.dir/src.cxx.o
+        /usr/bin/c++ -DCXX_FILESYSTEM_NO_LINK_NEEDED  -std=c++17 -std=gnu++17 -o CMakeFiles/cmTC_9d6a4.dir/src.cxx.o -c /home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-hGPAk5/src.cxx
+        Linking CXX executable cmTC_9d6a4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d6a4.dir/link.txt --verbose=1
+        /usr/bin/c++  -std=c++17 CMakeFiles/cmTC_9d6a4.dir/src.cxx.o -o cmTC_9d6a4
+        gmake[1]: Leaving directory '/home/deval/Desktop/detectXr/build/CMakeFiles/CMakeScratch/TryCompile-hGPAk5'
+        
+      exitCode: 0
+    runResult:
+      variable: "CXX_FILESYSTEM_NO_LINK_NEEDED_EXITCODE"
+      cached: true
+      stdout: |
+        /home/deval/Desktop/detectXr/build
+      stderr: |
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:7 (find_package)"
+    name: "Drogon"
+    configs:
+      -
+        filename: "Drogon.cps"
+        kind: "cps"
+      -
+        filename: "drogon.cps"
+        kind: "cps"
+      -
+        filename: "DrogonConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "drogon-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Drogon"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/DrogonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/drogon-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib64/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib64/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/lib/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/share/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/Desktop/detectXr/build/CMakeFiles/pkgRedirects/share/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/DrogonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/drogon-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib64/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/lib/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand/share/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/DrogonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/drogon-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib64/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/lib/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli/share/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/DrogonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/drogon-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib64/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib64/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/lib/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/share/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/.local/share/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/DrogonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/drogon-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib64/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib64/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/lib/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/share/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/deval/share/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/DrogonConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/drogon-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib64/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/Drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/drogon.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/local/lib64/cmake/Drogon/DrogonConfig.cmake"
+      mode: "config"
+      version: "1.9.13"
+    search_context:
+      ENV{PATH}:
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/deval/.config/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/deval/.local/bin"
+        - "/home/deval/bin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/local/sbin"
+        - "/usr/sbin"
+        - "/var/lib/snapd/snap/bin"
+        - "/home/deval/.vscode/extensions/vscjava.vscode-java-debug-0.59.0/bundled/scripts/noConfigScripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...

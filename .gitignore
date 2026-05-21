@@ -1,0 +1,7 @@
+build/
+drogon/
+.vscode/
+.idea/
+*.o
+*.out
+*.log

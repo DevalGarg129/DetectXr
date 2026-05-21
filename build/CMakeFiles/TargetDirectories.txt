@@ -1,0 +1,3 @@
+/home/deval/Desktop/detectXr/build/CMakeFiles/detectxr.dir
+/home/deval/Desktop/detectXr/build/CMakeFiles/edit_cache.dir
+/home/deval/Desktop/detectXr/build/CMakeFiles/rebuild_cache.dir
