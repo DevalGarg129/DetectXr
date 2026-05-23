@@ -11,6 +11,7 @@ detectxr: \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libdl.a \
   /usr/lib64/libjsoncpp.so \
   /lib64/libossp-uuid.so \
+  /usr/lib64/libpq.so \
   /usr/lib64/libz.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/libstdc++.so \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/libm.so \
@@ -45,7 +46,21 @@ detectxr: \
   /usr/lib/gcc/x86_64-redhat-linux/16/libgcc.a \
   /usr/lib/gcc/x86_64-redhat-linux/16/crtend.o \
   /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o \
-  /lib64/ld-linux-x86-64.so.2
+  /usr/lib64/libgssapi_krb5.so.2 \
+  /usr/lib64/libldap.so.2 \
+  /lib64/ld-linux-x86-64.so.2 \
+  /usr/lib64/libkrb5.so.3 \
+  /usr/lib64/libk5crypto.so.3 \
+  /usr/lib64/libcom_err.so.2 \
+  /usr/lib64/libkrb5support.so.0 \
+  /usr/lib64/libkeyutils.so.1 \
+  /usr/lib64/libresolv.so.2 \
+  /usr/lib64/liblber.so.2 \
+  /usr/lib64/libevent-2.1.so.7 \
+  /usr/lib64/libsasl2.so.3 \
+  /usr/lib64/libselinux.so.1 \
+  /usr/lib64/libcrypt.so.2 \
+  /usr/lib64/libpcre2-8.so.0
 
 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crt1.o:
 
@@ -70,6 +85,8 @@ CMakeFiles/detectxr.dir/src/main.cpp.o:
 /usr/lib64/libjsoncpp.so:
 
 /lib64/libossp-uuid.so:
+
+/usr/lib64/libpq.so:
 
 /usr/lib64/libz.so:
 
@@ -139,4 +156,32 @@ CMakeFiles/detectxr.dir/src/main.cpp.o:
 
 /usr/lib/gcc/x86_64-redhat-linux/16/../../../../lib64/crtn.o:
 
+/usr/lib64/libgssapi_krb5.so.2:
+
+/usr/lib64/libldap.so.2:
+
 /lib64/ld-linux-x86-64.so.2:
+
+/usr/lib64/libkrb5.so.3:
+
+/usr/lib64/libk5crypto.so.3:
+
+/usr/lib64/libcom_err.so.2:
+
+/usr/lib64/libkrb5support.so.0:
+
+/usr/lib64/libkeyutils.so.1:
+
+/usr/lib64/libresolv.so.2:
+
+/usr/lib64/liblber.so.2:
+
+/usr/lib64/libevent-2.1.so.7:
+
+/usr/lib64/libsasl2.so.3:
+
+/usr/lib64/libselinux.so.1:
+
+/usr/lib64/libcrypt.so.2:
+
+/usr/lib64/libpcre2-8.so.0:

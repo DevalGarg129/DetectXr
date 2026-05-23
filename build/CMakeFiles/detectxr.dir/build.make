@@ -102,6 +102,7 @@ detectxr: /usr/lib64/libssl.so
 detectxr: /usr/lib64/libcrypto.so
 detectxr: /usr/lib64/libjsoncpp.so
 detectxr: /lib64/libossp-uuid.so
+detectxr: /usr/lib64/libpq.so
 detectxr: /usr/lib64/libz.so
 detectxr: CMakeFiles/detectxr.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/deval/Desktop/detectXr/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable detectxr"
