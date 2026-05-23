@@ -4,11 +4,11 @@ int main() {
 
     drogon::app().createDbClient(
         "postgresql",
-        "localhost",
+        "127.0.0.1",
         5432,
         "detectxr",
         "detectxr_user",
-        "password123",
+        "detect123",
         1
     );
 

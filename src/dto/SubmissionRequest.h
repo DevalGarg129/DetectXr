@@ -8,4 +8,7 @@ struct SubmissionRequest {
     std::string language;
 
     double pasteRatio;
+    double typingSpeed;
+    int submissionTimeSeconds;
+    bool suspiciousPasteBurst;
 };

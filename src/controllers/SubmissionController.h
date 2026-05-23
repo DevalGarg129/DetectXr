@@ -40,5 +40,9 @@ public:
         Json::Value result = service.analyzeSubmission(request);
         auto response = HttpResponse::newHttpJsonResponse(result);
         callback(response);
+
+        request.typingSpeed = (*json)["typingSpeed"].asDouble();
+        request.submissionTimeSeconds = (*json)["submissionTimeSeconds"].asInt();
+        request.suspiciousPasteBurst = (*json)["suspiciousPasteBurst"].asBool();
     }
 };

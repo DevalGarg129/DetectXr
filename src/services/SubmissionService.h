@@ -4,37 +4,50 @@
 #include "../engines/risk/RiskEngine.h";
 #include "../database/SubmissionRepository.h";
 #include "../models/Submission.h";
+#include "../behavior/BehaviorEngine.h";
 
 #include <json/json.h>
 
-class SubmissionService{
+class SubmissionService
+{
     private:
         RiskEngine riskEngine;
         SubmissionRepository repository;
+        BehaviorEngine behaviorEngine;
 
     public:
-        Json::Value analyzeSubmission(const SubmissionRequest& request){
+        Json::Value analyzeSubmission(
+            const SubmissionRequest &request){
             int riskScore = riskEngine.calculateRiskScore(request.pasteRatio);
-            bool flagged = riskEngine.isFlagged(riskScore);
+
+            int behaviorScore = behaviorEngine.calculateBehaviorEngine(
+                    request.typingSpeed,
+                    request.submissionTimeSeconds,
+                    request.suspiciousPasteBurst);
+            int finalScore = riskScore + behaviorScore;
+
+            bool flagged = finalScore >= 60;
 
             Submission submission;
             submission.userId = request.userId;
+            submission.sourceCode = request.sourceCode;
             submission.language = request.language;
             submission.pasteRatio = request.pasteRatio;
-            submission.riskScore = riskScore;
+            submission.riskScore = finalScore;
             submission.flagged = flagged;
 
             repository.saveSubmission(submission);
             Json::Value response;
+
             response["userId"] = request.userId;
             response["language"] = request.language;
             response["pasteRatio"] = request.pasteRatio;
-            response["riskScore"] = riskScore;
+            response["typingSpeed"] = request.typingSpeed;
+            response["submissionTimeSeconds"] =  request.submissionTimeSeconds;
+            response["behaviorScore"] =  behaviorScore;
+            response["riskScore"] = finalScore;
             response["flagged"] = flagged;
-            response["message"] = "Submission analyzed and stored successfully";
+            response["message"] =  "Submission analyzed and stored successfully";
             return response;
-    }
+        }
 };
-
-
-
