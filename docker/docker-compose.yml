@@ -1,0 +1,29 @@
+services:
+
+  postgres:
+
+    image: postgres:16
+
+    container_name: detectxr-postgres
+
+    environment:
+      POSTGRES_DB: detectxr
+      POSTGRES_USER: detectxr_user
+      POSTGRES_PASSWORD: strongpassword
+
+    ports:
+      - "5432:5432"
+
+  detectxr:
+
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
+    container_name: detectxr-backend
+
+    ports:
+      - "8080:8080"
+
+    depends_on:
+      - postgres
