@@ -36,13 +36,12 @@ public:
         request.sourceCode = (*json)["sourceCode"].asString();
         request.language = (*json)["language"].asString();
         request.pasteRatio = (*json)["pasteRatio"].asDouble();
+        request.typingSpeed = (*json)["typingSpeed"].asDouble();
+        request.submissionTimeSeconds = (*json)["submissionTimeSeconds"].asInt();
+        request.suspiciousPasteBurst = (*json)["suspiciousPasteBurst"].asBool();
 
         Json::Value result = service.analyzeSubmission(request);
         auto response = HttpResponse::newHttpJsonResponse(result);
         callback(response);
-
-        request.typingSpeed = (*json)["typingSpeed"].asDouble();
-        request.submissionTimeSeconds = (*json)["submissionTimeSeconds"].asInt();
-        request.suspiciousPasteBurst = (*json)["suspiciousPasteBurst"].asBool();
     }
 };
